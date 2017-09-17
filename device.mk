@@ -39,9 +39,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@4.0 \
     libaudio-resampler
 
-PRODUCT_COPY_FILES += \
-    hardware/qcom/audio-caf/msm8996/configs/msm8996/audio_policy.conf:system/etc/audio_policy.conf
-
 # Camera
 PRODUCT_PACKAGES += \
     Snap
@@ -91,6 +88,10 @@ PRODUCT_BOOT_JARS += \
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.onc
 
 # WFD
 PRODUCT_PACKAGES += \
