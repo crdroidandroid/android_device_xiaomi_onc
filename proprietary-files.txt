@@ -54,6 +54,9 @@ lib64/vendor.display.color@1.0.so
 # Power-off charging daemon
 -sbin/charger:sbin/chargeonlymode;rootfs|664dfa548b81cac348f1699222160f8d2b4d247c
 
+# Power-off charging daemon
+-sbin/charger:sbin/chargeonlymode;rootfs|664dfa548b81cac348f1699222160f8d2b4d247c
+
 # QMI
 etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml
