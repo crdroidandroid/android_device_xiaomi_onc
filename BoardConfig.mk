@@ -155,8 +155,6 @@ USE_SENSOR_MULTI_HAL := true
 
 # Treble
 BOARD_VNDK_VERSION := current
-PRODUCT_FULL_TREBLE_OVERRIDE := true
-
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Inherit from the proprietary version
