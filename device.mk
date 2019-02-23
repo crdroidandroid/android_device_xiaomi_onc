@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
