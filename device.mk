@@ -308,10 +308,12 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libcnefeatureconfig \
     libxml2 \
-    telephony-ext
+    telephony-ext \
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+#Telephony
+PRODUCT_PACKAGES += \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
