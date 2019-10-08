@@ -159,3 +159,6 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/onc/BoardConfigVendor.mk
+
+# OTA 
+TARGET_OTA_ASSERT_DEVICE := onc,onclite,Onc,Onclite,Redmi 7,Redmi Y3
