@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+	
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
