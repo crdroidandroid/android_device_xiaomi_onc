@@ -20,6 +20,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/onc/onc-vendor.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1520
+TARGET_SCREEN_WIDTH := 720
+
 # Properties
 -include $(LOCAL_PATH)/device-props.mk
 
