@@ -50,6 +50,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+
+PRODUCT_BOOT_JARS += \
+    qcom.fmradio
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
@@ -74,3 +83,11 @@ PRODUCT_COPY_FILES += \
 # Telephony
 PRODUCT_BOOT_JARS += \
     telephony-ext
+	
+# WFD
+PRODUCT_PACKAGES += \
+    libnl \
+    libwfdaac
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
