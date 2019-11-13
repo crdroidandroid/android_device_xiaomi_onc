@@ -21,9 +21,6 @@ DEVICE_PATH := device/xiaomi/onc
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := onc
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
