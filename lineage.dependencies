@@ -1,10 +1,10 @@
 [
- {
-   "repository": "kernel_xiaomi_sdm632",
-   "target_path": "kernel/xiaomi/sdm632"
- },
- {
-   "repository": "android_packages_resources_devicesettings",
-   "target_path": "packages/resources/devicesettings"
- }
+  {
+    "repository": "kernel_xiaomi_sdm632",
+    "target_path": "kernel/xiaomi/sdm632-common"
+  }
+  {
+    "repository": "vendor_xiaomi_onc",
+    "target_path": "vendor/xiaomi/onc"
+  }
 ]
