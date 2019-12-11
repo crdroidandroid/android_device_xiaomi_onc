@@ -192,7 +192,7 @@ TARGET_RIL_VARIANT := caf
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2019-05-05
