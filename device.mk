@@ -15,7 +15,6 @@
 #
 
 $(call inherit-product, vendor/xiaomi/onc/onc-vendor.mk)
-$(call inherit-product, vendor/xiaomi/sdm632-common/sdm632-common-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Enable updating of APEXes
